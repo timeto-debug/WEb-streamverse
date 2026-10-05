@@ -1,4 +1,4 @@
-import React from "react";
+
 import { AiFillPlaySquare } from "react-icons/ai";
 import { FaSearch } from "react-icons/fa";
 import { IoMdNotificationsOutline } from "react-icons/io";
@@ -82,10 +82,19 @@ export function HomePage() {
   <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-5">
 
     <div>
-      <img
+      <a
+      href="https://www.youtube.com/watch?v=1joblgPXZWw"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="block overflow-hidden rounded-lg cursor-pointer">
+        <img
         src="https://i.pinimg.com/1200x/03/67/74/036774af6f913baaf1d159902e1ba377.jpg"
         className="w-full aspect-video object-cover rounded-lg"
       />
+
+      </a>
+      
+      
       <h3 className="mt-2 font-semibold">
         Movie 1
       </h3>
